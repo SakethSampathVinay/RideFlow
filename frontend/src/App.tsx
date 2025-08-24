@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
 import PublicOnlyRoute from "./components/PublicOnlyRoute";
 import { ToastContainer } from "react-toastify";
+import PageNotFound from "./components/PageNotFound";
 
 const App = () => {
   return (
@@ -48,6 +49,7 @@ const App = () => {
             </ProtectedRoute>
           }
         />
+        <Route path="*" element={<PageNotFound />} />
         <Route
           path="/login"
           element={
