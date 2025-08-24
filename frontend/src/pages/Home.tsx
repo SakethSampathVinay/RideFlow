@@ -1,5 +1,5 @@
 import FeaturedVehicles from "../components/FeaturedVehicles";
-import Testimonial from "../components/testimonial";
+import Testimonial from "../components/Testimonial";
 import Hero from "../components/Hero";
 
 const Home = () => {
